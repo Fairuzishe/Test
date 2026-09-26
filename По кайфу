@@ -1,9 +1,21 @@
 Linux
+          "Монитор выкрутить на максимум памяти"
+sudo apt update && sudo apt upgrade -y
 
 ---------1---------
 1) Устройтва - Drag & Drop - Двунаправленный
 sudo ubuntu-drivers autoinstall
+sudo apt install gnome-system-tools
+2) В инет зайти
+3) Нужные приложения
+sudo apt install -y build-essential curl wget git vim htop unzip \ vlc gimp libreoffice firefox
+4) Принтер
+sudo apt install -y cups cups-pdf
 ---------2---------
+1) Установить Timeshift
+sudo apt install timeshift
 
+резервное копирование
+sudo tar -czvf backup.tgz --exclude=/proc --exclude=/lost+found --exclude=/backup.tgz --exclude=/mnt --exclude=/sys --exclude=/dev --exclude=/tmp --exclude=/run /
 ---------3---------
 ---------4---------
